@@ -1,0 +1,631 @@
+2022-10-17 15:13:32.0642||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-10-17 15:13:35.4184||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: AF96B886C938173FDE5D60FDF148406AA2DAA25A) 
+2022-10-17 15:13:35.5022||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-10-17 15:13:35.5022||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-10-17 15:13:35.5022||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend 
+2022-10-17 15:13:35.5351||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-10-17 15:13:35.5351||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-10-17 15:13:35.5660||INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Inżynierka\Backend\Backend 
+2022-10-17 15:13:35.5660||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-10-17 15:13:35.5967||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKN" accepted. 
+2022-10-17 15:13:35.5967||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKN" started. 
+2022-10-17 15:13:35.6185||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKN" received FIN. 
+2022-10-17 15:13:35.6393||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|182_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 15:13:35.6547||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKN" stopped. 
+2022-10-17 15:13:35.6547||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 15:13:36.5649||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKO" accepted. 
+2022-10-17 15:13:36.5649||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKP" accepted. 
+2022-10-17 15:13:36.5797||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKO" started. 
+2022-10-17 15:13:36.5797||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKP" started. 
+2022-10-17 15:13:36.6770||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKO" received FIN. 
+2022-10-17 15:13:36.6770||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKP" received FIN. 
+2022-10-17 15:13:36.6873||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Podczas przetwarzania certyfikatu wystąpił nieznany błąd.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 15:13:36.6873||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKO" stopped. 
+2022-10-17 15:13:36.6873||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 15:13:36.6873||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Podczas przetwarzania certyfikatu wystąpił nieznany błąd.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 15:13:36.6873||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKP" stopped. 
+2022-10-17 15:13:36.6873||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKQ" accepted. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKR" accepted. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKQ" started. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKR" started. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKQ" received FIN. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Podczas przetwarzania certyfikatu wystąpił nieznany błąd.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKR" received FIN. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" accepted. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKQ" stopped. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" started. 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKQ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 15:13:47.0445||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Podczas przetwarzania certyfikatu wystąpił nieznany błąd.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 15:13:47.0606||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKR" stopped. 
+2022-10-17 15:13:47.0606||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 15:13:47.0816||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMLG85IUUOKS" established using the following protocol: Tls12 
+2022-10-17 15:13:47.1107||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-10-17 15:13:47.1107||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-10-17 15:13:47.1107||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2022-10-17 15:13:47.1107||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-10-17 15:13:47.1107||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-10-17 15:13:47.1107||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" received HEADERS frame for stream ID 1 with length 470 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-17 15:13:47.1556||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-10-17 15:13:47.1778||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/animal - - 
+2022-10-17 15:13:47.1849||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-10-17 15:13:47.1849||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-17 15:13:47.2529||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/animal' 
+2022-10-17 15:13:47.2529||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' with route pattern 'api/animal' is valid for the request path '/api/animal' 
+2022-10-17 15:13:47.2529||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-17 15:13:47.2529||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-17 15:13:47.2729||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-10-17 15:13:47.2986||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Animal"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Backend.Models.AnimalDto]] GetAll() on controller Backend.Controllers.AnimalController (Backend). 
+2022-10-17 15:13:47.2986||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-10-17 15:13:47.2986||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-10-17 15:13:47.2986||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2022-10-17 15:13:47.2986||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-10-17 15:13:47.2986||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): None 
+2022-10-17 15:13:47.2986||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-17 15:13:47.4695||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-17 15:13:47.4695||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 15:13:47.4695||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 15:13:47.4695||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.AnimalController.GetAll (Backend) - Validation state: Valid 
+2022-10-17 15:13:47.8561||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.AnimalController.GetAll (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 375.9603ms. 
+2022-10-17 15:13:47.8561||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 15:13:47.8561||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 15:13:47.8573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-10-17 15:13:47.8573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022-10-17 15:13:47.8573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2022-10-17 15:13:47.8573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2022-10-17 15:13:47.8573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2022-10-17 15:13:47.8573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2022-10-17 15:13:47.8573||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Backend.Models.AnimalDto, Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-10-17 15:13:47.9306||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" sending HEADERS frame for stream ID 1 with length 74 and flags END_HEADERS 
+2022-10-17 15:13:47.9306||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" sending DATA frame for stream ID 1 with length 135 and flags NONE 
+2022-10-17 15:13:47.9306||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-10-17 15:13:47.9388||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.AnimalController.GetAll (Backend) in 631.9963ms 
+2022-10-17 15:13:47.9388||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-17 15:13:47.9388||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2022-10-17 15:13:47.9657||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/animal - - - 200 - application/json;+charset=utf-8 789.0089ms 
+2022-10-17 15:13:48.1370||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" received HEADERS frame for stream ID 3 with length 127 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-17 15:13:48.1451||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/favicon.ico - - 
+2022-10-17 15:13:48.1451||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-17 15:13:48.1451||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2022-10-17 15:13:48.1451||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2022-10-17 15:13:48.1451||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKS" sending HEADERS frame for stream ID 3 with length 7 and flags END_STREAM, END_HEADERS 
+2022-10-17 15:13:48.1451||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 404 0 - 1.4707ms 
+2022-10-17 15:14:09.8599||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKT" accepted. 
+2022-10-17 15:14:09.8599||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKT" started. 
+2022-10-17 15:14:09.8599||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKU" accepted. 
+2022-10-17 15:14:09.8599||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKU" started. 
+2022-10-17 15:14:09.8599||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKT" received FIN. 
+2022-10-17 15:14:09.8790||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|182_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 15:14:09.8790||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKT" stopped. 
+2022-10-17 15:14:09.8790||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLG85IUUOKT" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 15:14:09.8790||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMLG85IUUOKU" established using the following protocol: Tls12 
+2022-10-17 15:14:09.9004||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE https://localhost:5001/api/animal/5453 application/json 178 
+2022-10-17 15:14:09.9004||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-17 15:14:09.9004||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/animal/5453' 
+2022-10-17 15:14:09.9004||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.AnimalController.Delete (Backend)' with route pattern 'api/animal/{id}' is valid for the request path '/api/animal/5453' 
+2022-10-17 15:14:09.9004||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.AnimalController.Delete (Backend)' 
+2022-10-17 15:14:09.9004||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.AnimalController.Delete (Backend)' 
+2022-10-17 15:14:09.9159||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Animal"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Backend.Controllers.AnimalController (Backend). 
+2022-10-17 15:14:09.9159||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-10-17 15:14:09.9159||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-10-17 15:14:09.9159||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2022-10-17 15:14:09.9159||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-10-17 15:14:09.9159||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): None 
+2022-10-17 15:14:09.9159||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-17 15:14:09.9159||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-17 15:14:09.9518||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2022-10-17 15:14:09.9518||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2022-10-17 15:14:09.9518||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2022-10-17 15:14:09.9518||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2022-10-17 15:14:09.9518||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2022-10-17 15:14:09.9518||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2022-10-17 15:14:09.9518||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 15:14:09.9518||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 15:14:09.9518||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.AnimalController.Delete (Backend) - Validation state: Valid 
+2022-10-17 15:14:09.9518||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.AnimalController.Delete (Backend) with arguments (5453) 
+2022-10-17 15:14:09.9860||WARN|Backend.Services.AnimalService|Animal with id: 5453 DELETE action invoked 
+2022-10-17 15:14:10.2154||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.AnimalController.Delete (Backend), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 256.0319ms. 
+2022-10-17 15:14:10.2154||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 15:14:10.2154||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 15:14:10.2154||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.NotFoundResult. 
+2022-10-17 15:14:10.2189||INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404 
+2022-10-17 15:14:10.2189||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.NotFoundResult. 
+2022-10-17 15:14:10.2189||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.AnimalController.Delete (Backend) in 303.0894ms 
+2022-10-17 15:14:10.2189||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.AnimalController.Delete (Backend)' 
+2022-10-17 15:14:10.2189||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKU" completed keep alive response. 
+2022-10-17 15:14:10.2189||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 DELETE https://localhost:5001/api/animal/5453 application/json 178 - 404 0 - 320.7374ms 
+2022-10-17 15:14:10.2189||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKU", Request id "0HMLG85IUUOKU:00000002": started reading request body. 
+2022-10-17 15:14:10.2189||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLG85IUUOKU", Request id "0HMLG85IUUOKU:00000002": done reading request body. 
+2022-10-17 22:30:55.8264||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-10-17 22:30:58.4824||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: AF96B886C938173FDE5D60FDF148406AA2DAA25A) 
+2022-10-17 22:30:58.5672||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-10-17 22:30:58.5672||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-10-17 22:30:58.5672||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend 
+2022-10-17 22:30:58.5715||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-10-17 22:30:58.5715||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-10-17 22:30:58.5715||INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Inżynierka\Backend\Backend 
+2022-10-17 22:30:58.5715||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-10-17 22:30:59.0632||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPN" accepted. 
+2022-10-17 22:30:59.0632||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPM" accepted. 
+2022-10-17 22:30:59.0632||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPN" started. 
+2022-10-17 22:30:59.0632||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPM" started. 
+2022-10-17 22:30:59.0715||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPN" received FIN. 
+2022-10-17 22:30:59.0715||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPM" received FIN. 
+2022-10-17 22:30:59.0948||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 22:30:59.0948||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 22:30:59.1098||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPM" stopped. 
+2022-10-17 22:30:59.1098||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPN" stopped. 
+2022-10-17 22:30:59.1098||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 22:30:59.1098||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 22:30:59.5136||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPO" accepted. 
+2022-10-17 22:30:59.5405||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPO" started. 
+2022-10-17 22:30:59.7148||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPP" accepted. 
+2022-10-17 22:30:59.7148||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPP" started. 
+2022-10-17 22:30:59.7148||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPO" received FIN. 
+2022-10-17 22:30:59.7148||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPP" received FIN. 
+2022-10-17 22:30:59.7148||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" accepted. 
+2022-10-17 22:30:59.7282||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" started. 
+2022-10-17 22:30:59.7690||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Podczas przetwarzania certyfikatu wystąpił nieznany błąd.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 22:30:59.7690||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPO" stopped. 
+2022-10-17 22:30:59.7690||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 22:30:59.7736||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Podczas przetwarzania certyfikatu wystąpił nieznany błąd.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 22:30:59.7736||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPP" stopped. 
+2022-10-17 22:30:59.7736||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 22:30:59.7736||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMLGFQ045RPQ" established using the following protocol: Tls12 
+2022-10-17 22:30:59.8132||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-10-17 22:30:59.8132||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-10-17 22:30:59.8200||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2022-10-17 22:30:59.8200||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-10-17 22:30:59.8200||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-10-17 22:30:59.8200||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" received HEADERS frame for stream ID 1 with length 461 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-17 22:30:59.8661||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-10-17 22:30:59.8932||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/animal - - 
+2022-10-17 22:30:59.9020||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-10-17 22:30:59.9020||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-17 22:30:59.9669||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/animal' 
+2022-10-17 22:30:59.9669||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' with route pattern 'api/animal' is valid for the request path '/api/animal' 
+2022-10-17 22:30:59.9669||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-17 22:30:59.9669||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-17 22:30:59.9795||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-10-17 22:30:59.9936||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Animal"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Backend.Models.AnimalDto]] GetAll() on controller Backend.Controllers.AnimalController (Backend). 
+2022-10-17 22:30:59.9936||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-10-17 22:30:59.9936||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-10-17 22:30:59.9936||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2022-10-17 22:30:59.9936||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-10-17 22:30:59.9936||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): None 
+2022-10-17 22:30:59.9936||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-17 22:31:00.1883||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-17 22:31:00.1883||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 22:31:00.1883||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 22:31:00.1883||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.AnimalController.GetAll (Backend) - Validation state: Valid 
+2022-10-17 22:31:00.5837||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.AnimalController.GetAll (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 385.1664ms. 
+2022-10-17 22:31:00.5837||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 22:31:00.5837||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 22:31:00.5837||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-10-17 22:31:00.5867||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022-10-17 22:31:00.5867||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2022-10-17 22:31:00.5867||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2022-10-17 22:31:00.5867||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2022-10-17 22:31:00.5867||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2022-10-17 22:31:00.5867||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Backend.Models.AnimalDto, Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-10-17 22:31:00.6891||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" sending HEADERS frame for stream ID 1 with length 74 and flags END_HEADERS 
+2022-10-17 22:31:00.6891||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" sending DATA frame for stream ID 1 with length 135 and flags NONE 
+2022-10-17 22:31:00.6891||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-10-17 22:31:00.6958||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.AnimalController.GetAll (Backend) in 696.4661ms 
+2022-10-17 22:31:00.6958||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-17 22:31:00.6958||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPQ" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2022-10-17 22:31:00.6958||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/animal - - - 200 - application/json;+charset=utf-8 819.4117ms 
+2022-10-17 22:31:18.3568||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPR" accepted. 
+2022-10-17 22:31:18.3568||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPR" started. 
+2022-10-17 22:31:18.3568||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPR" received FIN. 
+2022-10-17 22:31:18.3568||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPS" accepted. 
+2022-10-17 22:31:18.3568||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPS" started. 
+2022-10-17 22:31:18.3568||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-17 22:31:18.3568||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPR" stopped. 
+2022-10-17 22:31:18.3568||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGFQ045RPR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-17 22:31:18.3752||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMLGFQ045RPS" established using the following protocol: Tls12 
+2022-10-17 22:31:18.3896||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT https://localhost:5001/api/animal/5453 application/json 178 
+2022-10-17 22:31:18.3896||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-17 22:31:18.3896||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/animal/5453' 
+2022-10-17 22:31:18.3896||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.AnimalController.UpdateAnimal (Backend)' with route pattern 'api/animal/{id}' is valid for the request path '/api/animal/5453' 
+2022-10-17 22:31:18.3896||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.AnimalController.UpdateAnimal (Backend)' 
+2022-10-17 22:31:18.3896||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.AnimalController.UpdateAnimal (Backend)' 
+2022-10-17 22:31:18.4080||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UpdateAnimal", controller = "Animal"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult UpdateAnimal(Backend.Models.UpdateAnimalDto, Int32) on controller Backend.Controllers.AnimalController (Backend). 
+2022-10-17 22:31:18.4080||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-10-17 22:31:18.4080||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-10-17 22:31:18.4080||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2022-10-17 22:31:18.4080||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-10-17 22:31:18.4080||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): None 
+2022-10-17 22:31:18.4080||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-17 22:31:18.4080||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-17 22:31:18.4389||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'dto' of type 'Backend.Models.UpdateAnimalDto' ... 
+2022-10-17 22:31:18.4389||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'dto' of type 'Backend.Models.UpdateAnimalDto' using the name '' in request data ... 
+2022-10-17 22:31:18.4389||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2022-10-17 22:31:18.4491||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPS", Request id "0HMLGFQ045RPS:00000002": started reading request body. 
+2022-10-17 22:31:18.4491||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPS", Request id "0HMLGFQ045RPS:00000002": done reading request body. 
+2022-10-17 22:31:18.4491||DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Models.UpdateAnimalDto' 
+2022-10-17 22:31:18.4491||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'dto' of type 'Backend.Models.UpdateAnimalDto'. 
+2022-10-17 22:31:18.4491||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'dto' of type 'Backend.Models.UpdateAnimalDto'. 
+2022-10-17 22:31:18.4491||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'dto' of type 'Backend.Models.UpdateAnimalDto' ... 
+2022-10-17 22:31:18.4719||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'dto' of type 'Backend.Models.UpdateAnimalDto'. 
+2022-10-17 22:31:18.4719||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2022-10-17 22:31:18.4719||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2022-10-17 22:31:18.4763||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2022-10-17 22:31:18.4763||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2022-10-17 22:31:18.4763||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2022-10-17 22:31:18.4763||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2022-10-17 22:31:18.4763||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 22:31:18.4763||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 22:31:18.4763||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.AnimalController.UpdateAnimal (Backend) - Validation state: Valid 
+2022-10-17 22:31:18.4763||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.AnimalController.UpdateAnimal (Backend) with arguments (Backend.Models.UpdateAnimalDto, 5453) 
+2022-10-17 22:31:32.2814||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 22:31:32.2814||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-17 22:31:32.2814||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.AnimalController.UpdateAnimal (Backend) in 13875.0147ms 
+2022-10-17 22:31:32.2814||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.AnimalController.UpdateAnimal (Backend)' 
+2022-10-17 22:31:32.4516||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGFQ045RPS" completed keep alive response. 
+2022-10-17 22:31:32.4516||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT https://localhost:5001/api/animal/5453 application/json 178 - 404 - - 14062.2792ms 
+2022-10-18 11:36:15.6572||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-10-18 11:36:20.9690||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: AF96B886C938173FDE5D60FDF148406AA2DAA25A) 
+2022-10-18 11:36:21.0675||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-10-18 11:36:21.1019||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-10-18 11:36:21.1019||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend 
+2022-10-18 11:36:21.1019||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-10-18 11:36:21.1019||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-10-18 11:36:21.1181||INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Inżynierka\Backend\Backend 
+2022-10-18 11:36:21.1181||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-10-18 11:36:21.4992||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGTGRMOLB7" received FIN. 
+2022-10-18 11:36:21.4992||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGTGRMOLB8" received FIN. 
+2022-10-18 11:36:21.5271||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB7" accepted. 
+2022-10-18 11:36:21.5271||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB8" accepted. 
+2022-10-18 11:36:21.5271||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB7" started. 
+2022-10-18 11:36:21.5271||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB8" started. 
+2022-10-18 11:36:21.5713||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-18 11:36:21.5713||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-18 11:36:21.5903||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB7" stopped. 
+2022-10-18 11:36:21.5903||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB8" stopped. 
+2022-10-18 11:36:21.5903||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGTGRMOLB7" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-18 11:36:21.5903||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGTGRMOLB8" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-18 11:36:22.2945||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB9" accepted. 
+2022-10-18 11:36:22.2945||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB9" started. 
+2022-10-18 11:36:22.3743||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGTGRMOLB9" received FIN. 
+2022-10-18 11:36:22.3743||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBA" accepted. 
+2022-10-18 11:36:22.3743||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBA" started. 
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGTGRMOLBA" received FIN. 
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Podczas przetwarzania certyfikatu wystąpił nieznany błąd.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Podczas przetwarzania certyfikatu wystąpił nieznany błąd.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" accepted. 
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" started. 
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBA" stopped. 
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLB9" stopped. 
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGTGRMOLB9" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-18 11:36:22.3893||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMLGTGRMOLBA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-10-18 11:36:22.4096||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMLGTGRMOLBB" established using the following protocol: Tls12 
+2022-10-18 11:36:22.4328||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-10-18 11:36:22.4328||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-10-18 11:36:22.4328||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2022-10-18 11:36:22.4328||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-10-18 11:36:22.4328||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-10-18 11:36:22.4328||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 1 with length 461 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:22.4728||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-10-18 11:36:22.4912||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/animal - - 
+2022-10-18 11:36:22.4959||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-10-18 11:36:22.4959||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:22.6581||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2022-10-18 11:36:23.1257||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/animal' 
+2022-10-18 11:36:23.1257||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' with route pattern 'api/animal' is valid for the request path '/api/animal' 
+2022-10-18 11:36:23.1257||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-18 11:36:23.1324||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-18 11:36:23.1324||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-10-18 11:36:23.1714||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Animal"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Backend.Models.AnimalDto]] GetAll() on controller Backend.Controllers.AnimalController (Backend). 
+2022-10-18 11:36:23.1714||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-10-18 11:36:23.1714||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-10-18 11:36:23.1714||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-10-18 11:36:23.1714||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-10-18 11:36:23.1714||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-10-18 11:36:23.1714||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-18 11:36:23.4379||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-18 11:36:23.4379||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-18 11:36:23.4379||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-18 11:36:23.4379||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-10-18 11:36:23.4379||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-10-18 11:36:23.4379||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.AnimalController.GetAll (Backend) - Validation state: Valid 
+2022-10-18 11:36:23.9703||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.AnimalController.GetAll (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 521.3303ms. 
+2022-10-18 11:36:23.9703||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-10-18 11:36:23.9703||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-10-18 11:36:23.9703||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-18 11:36:23.9703||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-10-18 11:36:23.9703||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-10-18 11:36:23.9703||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-10-18 11:36:23.9703||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-10-18 11:36:23.9703||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022-10-18 11:36:23.9767||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2022-10-18 11:36:23.9767||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2022-10-18 11:36:23.9767||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2022-10-18 11:36:23.9767||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2022-10-18 11:36:23.9767||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Backend.Models.AnimalDto, Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-10-18 11:36:24.0603||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 1 with length 74 and flags END_HEADERS 
+2022-10-18 11:36:24.0603||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 1 with length 135 and flags NONE 
+2022-10-18 11:36:24.0603||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-10-18 11:36:24.0603||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-10-18 11:36:24.0603||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-10-18 11:36:24.0803||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.AnimalController.GetAll (Backend) in 890.6499ms 
+2022-10-18 11:36:24.0803||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.AnimalController.GetAll (Backend)' 
+2022-10-18 11:36:24.0803||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2022-10-18 11:36:24.1034||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/animal - - - 200 - application/json;+charset=utf-8 1613.1206ms 
+2022-10-18 11:36:24.4163||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 3 with length 127 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:24.4163||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/favicon.ico - - 
+2022-10-18 11:36:24.4163||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:24.4163||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2022-10-18 11:36:24.4163||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2022-10-18 11:36:24.4163||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2022-10-18 11:36:24.4163||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 3 with length 7 and flags END_STREAM, END_HEADERS 
+2022-10-18 11:36:24.4163||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 404 0 - 1.4950ms 
+2022-10-18 11:36:37.4555||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 5 with length 28 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:37.4555||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received PING frame for stream ID 0 with length 8 and flags NONE 
+2022-10-18 11:36:37.4555||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2022-10-18 11:36:37.4555||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger - - 
+2022-10-18 11:36:37.4555||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:37.4629||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 5 with length 61 and flags END_STREAM, END_HEADERS 
+2022-10-18 11:36:37.4629||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 6.1884ms 
+2022-10-18 11:36:37.4629||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 7 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:37.4629||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - - 
+2022-10-18 11:36:37.4629||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:37.6594||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 7 with length 28 and flags END_HEADERS 
+2022-10-18 11:36:37.6594||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 7 with length 4751 and flags NONE 
+2022-10-18 11:36:37.6639||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM 
+2022-10-18 11:36:37.6639||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 189.9247ms 
+2022-10-18 11:36:37.6639||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-10-18 11:36:37.7144||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 9 with length 89 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:37.7144||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 11 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:37.7144||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - 
+2022-10-18 11:36:37.7144||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:37.7144||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 13 with length 50 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:37.7144||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - 
+2022-10-18 11:36:37.7144||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - 
+2022-10-18 11:36:37.7144||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:37.7144||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:37.7330||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2022-10-18 11:36:37.7330||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2022-10-18 11:36:37.7330||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 9 with length 79 and flags END_HEADERS 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 11 with length 58 and flags END_HEADERS 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7415||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 13 with length 34 and flags END_HEADERS 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7602||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 12871 and flags NONE 
+2022-10-18 11:36:37.7734||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7734||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7734||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7734||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7734||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7734||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7734||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7734||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7734||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.7899||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 143943 text/css 96.3411ms 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8042||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 11806 and flags NONE 
+2022-10-18 11:36:37.8234||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2022-10-18 11:36:37.8234||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM 
+2022-10-18 11:36:37.8234||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 114.8944ms 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8373||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8588||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8717||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8717||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8717||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8717||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8717||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8717||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-10-18 11:36:37.8717||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 14801 and flags NONE 
+2022-10-18 11:36:37.8717||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2022-10-18 11:36:37.8717||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM 
+2022-10-18 11:36:37.8717||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1096145 application/javascript 158.0414ms 
+2022-10-18 11:36:38.1793||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 15 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:38.1793||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - 
+2022-10-18 11:36:38.1793||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:38.2723||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 17 with length 40 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-10-18 11:36:38.2739||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - 
+2022-10-18 11:36:38.2739||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:36:38.2739||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2022-10-18 11:36:38.2739||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 17 with length 71 and flags END_HEADERS 
+2022-10-18 11:36:38.2739||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 17 with length 628 and flags NONE 
+2022-10-18 11:36:38.2739||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2022-10-18 11:36:38.2739||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 17 with length 0 and flags END_STREAM 
+2022-10-18 11:36:38.2739||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 0.9582ms 
+2022-10-18 11:36:38.5190||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 15 with length 35 and flags END_HEADERS 
+2022-10-18 11:36:38.5190||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 15 with length 8583 and flags NONE 
+2022-10-18 11:36:38.5190||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM 
+2022-10-18 11:36:38.5190||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 339.2836ms 
+2022-10-18 11:37:58.3476||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received HEADERS frame for stream ID 19 with length 71 and flags END_HEADERS, PRIORITY 
+2022-10-18 11:37:58.3476||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received PING frame for stream ID 0 with length 8 and flags NONE 
+2022-10-18 11:37:58.3476||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2022-10-18 11:37:58.3476||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received DATA frame for stream ID 19 with length 155 and flags END_STREAM 
+2022-10-18 11:37:58.3856||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/api/animal application/json 155 
+2022-10-18 11:37:58.3856||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-10-18 11:37:58.3856||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2022-10-18 11:37:58.3856||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/animal' 
+2022-10-18 11:37:58.3856||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.AnimalController.CreateAnimal (Backend)' with route pattern 'api/animal' is valid for the request path '/api/animal' 
+2022-10-18 11:37:58.3856||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.AnimalController.CreateAnimal (Backend)' 
+2022-10-18 11:37:58.3856||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.AnimalController.CreateAnimal (Backend)' 
+2022-10-18 11:37:58.4161||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CreateAnimal", controller = "Animal"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CreateAnimal(Backend.Models.CreateAnimalModel) on controller Backend.Controllers.AnimalController (Backend). 
+2022-10-18 11:37:58.4161||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-10-18 11:37:58.4161||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-10-18 11:37:58.4161||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-10-18 11:37:58.4161||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-10-18 11:37:58.4161||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-10-18 11:37:58.4161||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-18 11:37:58.4161||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.AnimalController (Backend) 
+2022-10-18 11:37:58.4610||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Models.CreateAnimalModel' ... 
+2022-10-18 11:37:58.4610||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Models.CreateAnimalModel' using the name '' in request data ... 
+2022-10-18 11:37:58.4610||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2022-10-18 11:37:58.4783||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB", Request id "0HMLGTGRMOLBB:00000013": started reading request body. 
+2022-10-18 11:37:58.4783||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB", Request id "0HMLGTGRMOLBB:00000013": done reading request body. 
+2022-10-18 11:37:58.4921||DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Models.CreateAnimalModel' 
+2022-10-18 11:37:58.4921||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Models.CreateAnimalModel'. 
+2022-10-18 11:37:58.4921||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Models.CreateAnimalModel'. 
+2022-10-18 11:37:58.4921||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Models.CreateAnimalModel' ... 
+2022-10-18 11:37:58.5347||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.AnimalController.CreateAnimal (Backend) in 118.2211ms 
+2022-10-18 11:37:58.5347||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.AnimalController.CreateAnimal (Backend)' 
+2022-10-18 11:37:59.1731||ERROR|Backend.Middleware.ErrorHandlingMiddleware|The field of type System.Int32 must be a string, array or ICollection type. System.InvalidCastException: The field of type System.Int32 must be a string, array or ICollection type.
+   at System.ComponentModel.DataAnnotations.MaxLengthAttribute.IsValid(Object value)
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   at Microsoft.AspNetCore.Mvc.DataAnnotations.DataAnnotationsModelValidator.Validate(ModelValidationContext validationContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitSimpleType()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Backend.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in E:\Inżynierka\Backend\Backend\Middleware\ErrorHandlingMiddleware.cs:line 22
+2022-10-18 11:37:59.1731||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending HEADERS frame for stream ID 19 with length 33 and flags END_HEADERS 
+2022-10-18 11:37:59.1731||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 19 with length 27 and flags NONE 
+2022-10-18 11:37:59.1731||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" sending DATA frame for stream ID 19 with length 0 and flags END_STREAM 
+2022-10-18 11:37:59.1731||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/api/animal application/json 155 - 500 - - 792.5165ms 
+2022-10-18 11:37:59.1796||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMLGTGRMOLBB" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
