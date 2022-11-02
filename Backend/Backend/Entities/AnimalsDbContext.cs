@@ -31,6 +31,16 @@ namespace Backend.Entities
             modelBuilder.Entity<Specie>()
                 .Property(r => r.Name)
                 .IsRequired();
+
+            modelBuilder.Entity<Animal>()
+                .HasOne<Specie>(e => e.Specie)
+                .WithMany(g => g.Animal)
+                .HasForeignKey(s => s.SpecieId);
+
+            modelBuilder.Entity<Animal>()
+                .HasOne<User>(e => e.User)
+                .WithMany(g => g.Animal)
+                .HasForeignKey(s => s.UserId);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

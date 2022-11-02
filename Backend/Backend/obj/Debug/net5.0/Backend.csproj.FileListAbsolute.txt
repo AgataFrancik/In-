@@ -34,7 +34,6 @@ E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.
 E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Newtonsoft.Json.dll
 E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\System.Runtime.Caching.dll
@@ -67,3 +66,7 @@ E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.d
 E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\Inżynierka\Backend\Backend\obj\Debug\net5.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\FluentValidation.dll
+E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Inżynierka\Backend\Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

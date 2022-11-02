@@ -25,7 +25,6 @@ namespace Backend.Controllers
         [HttpPost]
         public ActionResult CreateAnimal([FromBody]CreateAnimalModel model) 
         {
-            
             var id =_animalService.Create(model);
             return Created($"api/animal/{id}", null);
         }
@@ -46,10 +45,8 @@ namespace Backend.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<AnimalDto>> GetAll()
         {
-
             var animalsDtos = _animalService.GetAll();
             return Ok(animalsDtos);
-
         }
 
         [HttpGet("{id}")]

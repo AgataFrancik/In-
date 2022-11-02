@@ -18,15 +18,7 @@ namespace Backend
                   .ForMember(m => m.Occurrence, c => c.MapFrom(s => s.Specie.Occurrence))
                    .ForMember(m => m.Characteristics, c => c.MapFrom(s => s.Specie.Characteristics));
             CreateMap<Specie, SpecieDto>();
-            CreateMap<CreateAnimalModel, Animal>()
-                .ForMember(r => r.Specie, c => c.MapFrom(dto => new Specie()
-                {
-                    Avg_length_of_life = dto.Avg_length_of_life,
-                    Characteristics = dto.Characteristics,
-                    Occurrence = dto.Occurrence,
-                    Name = dto.SpecieName
-                }));
-            
+            CreateMap<CreateAnimalModel, Animal>();
         }
     }
 }

@@ -10,7 +10,6 @@ namespace Backend.Entities
         public int Id { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
-
         public virtual List<Animal> Animal {get; set;}
     }
 }

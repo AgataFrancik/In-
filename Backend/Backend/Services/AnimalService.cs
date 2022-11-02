@@ -73,7 +73,12 @@ namespace Backend.Services
 
         public int Create(CreateAnimalModel model)
         {
+            //temp solution
+            var loggedUserId = 1;
+
             var animal = _mapper.Map<Animal>(model);
+            animal.UserId = loggedUserId;
+
             _dbContext.Animals.Add(animal);
             _dbContext.SaveChanges();
             return animal.Id;

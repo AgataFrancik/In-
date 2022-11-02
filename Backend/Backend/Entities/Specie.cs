@@ -12,7 +12,7 @@ namespace Backend.Entities
         public int Avg_length_of_life { get; set; }
         public string Occurrence { get; set; }
         public string Characteristics { get; set; }
-        public virtual Animal Animal { get; set; }
+        public virtual List<Animal> Animal { get; set; }
 
     }
 }
